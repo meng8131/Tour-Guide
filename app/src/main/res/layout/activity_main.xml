@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguide.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/attractions_list"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/attractions_name_1"
+        android:id="@+id/attraction_1" />
+    <TextView
+        style="@style/attractions_list"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/attractions_name_2"
+        android:id="@+id/attraction_2" />
+    <TextView
+        style="@style/attractions_list"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/attractions_name_3"
+        android:id="@+id/attraction_3" />
+    <TextView
+        style="@style/attractions_list"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/attractions_name_4"
+        android:id="@+id/attraction_4" />
+
+</LinearLayout>
